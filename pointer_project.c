@@ -14,7 +14,7 @@ int checkFish();
 
 int main(void) {
 	
-	
+
 	// Windows에서 clock()은 벽시간을 나타내지만, 
 	// Linux에서는 CPU 시간을 나타내서 CPU가 돌아가는 시간만 측정한다.
 	// Windows에서 실습을 하고 다시 리눅스로 공부하기 때문에 clock()을 사용했다가 3시간동안 삽질했다...
