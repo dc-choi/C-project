@@ -26,8 +26,8 @@ int main(void) {
     // scanf를 안전하게 사용하기위해 1열의 #define _CRT_SECURE_NO_WARNINGS를 사용함.
     // _s가 없는것이 _s가 매핑된다고 함.
 	
-    person p = scanReports(p);
-
+    person p;
+    p = scanReports(p);
     printReports(p);
 
     return 0;
