@@ -1,14 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-#define setSize 256
+// #define setsize 256
 
 typedef struct {
-    char name[setSize];
+    char * name;
     int age;
     double weight;
     double height;
-    char content[setSize];
+    char * content;
 } person;
 
 person scanReports(person p);
